@@ -1,11 +1,11 @@
 
 /**
  * @roxi/routify 2.15.1
- * File generated Sun Apr 25 2021 21:27:25 GMT+0800 (Australian Western Standard Time)
+ * File generated Mon Apr 26 2021 16:16:07 GMT+0800 (Australian Western Standard Time)
  */
 
 export const __version = "2.15.1"
-export const __timestamp = "2021-04-25T13:27:25.097Z"
+export const __timestamp = "2021-04-26T08:16:07.279Z"
 
 //buildRoutes
 import { buildClientTree } from "@roxi/routify/runtime/buildRoutes"
@@ -50,6 +50,55 @@ export const _tree = {
       "path": "/_fallback",
       "id": "__fallback",
       "component": () => import('../src/pages/_fallback.svelte').then(m => m.default)
+    },
+    {
+      "isFile": false,
+      "isDir": true,
+      "file": "classrooms",
+      "filepath": "/classrooms",
+      "name": "classrooms",
+      "ext": "",
+      "badExt": false,
+      "absolutePath": "C:/Users/JB/Documents/GitHub/Routify SMUI/src/pages/classrooms",
+      "children": [
+        {
+          "isFile": true,
+          "isDir": false,
+          "file": "index.svelte",
+          "filepath": "/classrooms/index.svelte",
+          "name": "index",
+          "ext": "svelte",
+          "badExt": false,
+          "absolutePath": "C:/Users/JB/Documents/GitHub/Routify SMUI/src/pages/classrooms/index.svelte",
+          "importPath": "../src/pages/classrooms/index.svelte",
+          "isLayout": false,
+          "isReset": false,
+          "isIndex": true,
+          "isFallback": false,
+          "isPage": true,
+          "ownMeta": {},
+          "meta": {
+            "recursive": true,
+            "preload": "proximity",
+            "prerender": true
+          },
+          "path": "/classrooms/index",
+          "id": "_classrooms_index",
+          "component": () => import('../src/pages/classrooms/index.svelte').then(m => m.default)
+        }
+      ],
+      "isLayout": false,
+      "isReset": false,
+      "isIndex": false,
+      "isFallback": false,
+      "isPage": false,
+      "ownMeta": {},
+      "meta": {
+        "recursive": true,
+        "preload": "proximity",
+        "prerender": true
+      },
+      "path": "/classrooms"
     },
     {
       "isFile": true,
